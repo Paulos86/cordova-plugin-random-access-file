@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <plugin xmlns="http://www.phonegap.com/ns/plugins/1.0"
-        id="com.example.hello"
+        id="com.maneco.randomaccessfile"
         version="0.7.0">
-
+  <repo>https://github.com/Paulos86/cordova-plugin-random-access-file.git</repo>
   <name>Hello</name>
 
   <engines>
@@ -19,7 +19,7 @@
 
     <config-file target="res/xml/config.xml" parent="/*">
       <feature name="Hello">
-        <param name="android-package" value="com.example.plugin.Hello"/>
+        <param name="android-package" value="com.maneco.cordova.randomaccessfile.Hello"/>
       </feature>
     </config-file>
 
