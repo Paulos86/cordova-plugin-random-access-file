@@ -3,6 +3,8 @@ package com.example.plugin;
 import org.apache.cordova.*;
 import org.json.JSONArray;
 import org.json.JSONException;
+import java.io.File;
+import java.io.RandomAccessFile;
 
 public class Hello extends CordovaPlugin {
 
@@ -11,10 +13,8 @@ public class Hello extends CordovaPlugin {
 
         if (action.equals("greet")) {
 
-            String name = data.getString(0);
-            String message = "Hello, " + name;
-            callbackContext.success(message);
-
+            File path = new File(data.getString(0))
+            callbackContext.success(path);
             return true;
 
         } else {

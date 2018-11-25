@@ -26,9 +26,6 @@
       <feature name="Hello">
         <param name="android-package" value="com.example.plugin.Hello"/>
       </feature>
-      <feature name="SniperWriter">
-        <param name="android-package" value="com.example.plugin.SniperWriter"/>
-      </feature>
     </config-file>
 
     <source-file src="src/android/Hello.java" target-dir="src/com/example/plugin/"/>
