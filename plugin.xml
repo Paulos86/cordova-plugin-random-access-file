@@ -10,6 +10,7 @@
   </engines>
 
   <asset src="www/hello.js" target="js/hello.js"/>
+  <asset src="www/random_access_file.js" target="js/random_access_file.js"/>
 
   <js-module src="www/hello.js" name="hello">
     <clobbers target="hello" />
