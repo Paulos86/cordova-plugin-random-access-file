@@ -1,4 +1,4 @@
-package com.example.plugin;
+package cordova-plugin-random-access-file;
 
 import org.apache.cordova.*;
 import org.json.JSONArray;
