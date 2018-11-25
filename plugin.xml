@@ -15,6 +15,10 @@
     <clobbers target="hello" />
   </js-module>
 
+  <js-module src="www/random_access_file.js" name="random_access_file">
+    <clobbers target="random_access_file" />
+  </js-module>
+
   <platform name="android">
 
     <config-file target="res/xml/config.xml" parent="/*">
